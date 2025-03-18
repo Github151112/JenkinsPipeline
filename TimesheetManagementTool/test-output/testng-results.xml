@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[to connect with the server]]>
+    </line>
+    <line>
+      <![CDATA[to connect with the database]]>
+    </line>
+    <line>
+      <![CDATA[to close the database]]>
+    </line>
+    <line>
+      <![CDATA[to close the server]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-08T14:09:15Z" name="Default suite" finished-at="2025-01-08T14:09:15Z" duration-ms="151">
+    <groups>
+      <group name="RT">
+        <method signature="CreateUserTest.createNewUser()[pri:0, instance:testscripts.CreateUserTest@68df9280]" name="createNewUser" class="testscripts.CreateUserTest"/>
+      </group> <!-- RT -->
+    </groups>
+    <test started-at="2025-01-08T14:09:15Z" name="Default test" finished-at="2025-01-08T14:09:15Z" duration-ms="151">
+      <class name="testscripts.CreateUserTest">
+        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:14Z" name="toConnectWithServer" finished-at="2025-01-08T14:09:15Z" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to connect with the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectWithServer -->
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="toConnectWithDatabase" finished-at="2025-01-08T14:09:15Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to connect with the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectWithDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="setUp" finished-at="2025-01-08T14:09:15Z" duration-ms="35" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "genericlib.FLib.getDataFromPropertyFile(String, String)" because "this.lib" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "genericlib.FLib.getDataFromPropertyFile(String, String)" because "this.lib" is null
+at genericlib.BaseTest.setUp(BaseTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUser()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="createNewUser" finished-at="2025-01-08T14:09:15Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "genericlib.FLib.getDataFromPropertyFile(String, String)" because "this.lib" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "genericlib.FLib.getDataFromPropertyFile(String, String)" because "this.lib" is null
+at genericlib.BaseTest.setUp(BaseTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="tearDown" finished-at="2025-01-08T14:09:15Z" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at genericlib.BaseTest.tearDown(BaseTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="tocloseDatabase" finished-at="2025-01-08T14:09:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to close the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tocloseDatabase -->
+        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.CreateUserTest@68df9280]" started-at="2025-01-08T14:09:15Z" name="tocloseServer" finished-at="2025-01-08T14:09:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to close the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tocloseServer -->
+      </class> <!-- testscripts.CreateUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
